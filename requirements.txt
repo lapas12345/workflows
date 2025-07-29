@@ -1,0 +1,6 @@
+# requirements.txt
+flake8
+flake8-bandit  # Extensión para seguridad
+bandit         # Escáner de seguridad Python
+coverage       # Para reporte de cobertura
+pytest         # Para ejecutar pruebas
