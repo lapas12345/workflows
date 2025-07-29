@@ -1,0 +1,9 @@
+# .flake8
+[flake8]
+max-line-length = 120
+ignore = E203, W503
+extend-select = B608, S101, B102
+# Reglas de seguridad:
+# B608 - SQL injection risk
+# S101 - Use of assert detected
+# B102 - Exec usage detected
